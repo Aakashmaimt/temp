@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 400px)
+{
+    .about1{
+        flex-direction: column;
+    }
+    .centered{
+        font-size: 2rem;
+        color: black;
+        text-shadow: 0 0 40px #2196f3 , 0 0 40px #2196f3 , 0 0 80px #2196f3 , 0 0 10px #2196f3;
+    }
+    .centered:hover{
+        color: black;
+    }
+    
+    .neon{
+        color: black;
+        box-shadow: 0 0 10px rgb(116, 240, 126), 0 0 20px rgb(116, 240, 126),0 0 30px rgb(116, 240, 126);
+        background-color: rgb(116, 240, 126);
+    }
+    .sub-circle1{
+        margin: auto auto;
+        margin-top: .2rem;
+        border: .7rem solid black;
+        height: 35vh;
+        width: 40vw;
+        overflow: hidden;
+        border-radius: 10%;
+        padding: .2rem;
+    }
+}
+.opacity-low{
+    opacity: .3;
+}
+#navbar{
+    background: black;
+    display: block;
+    position: sticky;
+    width: 100vw;
+    height: 6vh;
+}
+/* #logo{
+    height: 4vh;
+    width: 4vw;
+    border-radius: 10px;
+
+} */
+.pt-2{
+    padding-top: 1.5vh;
+
+}
+.mx-1{
+    margin-left: 1rem;
+}
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.8vh;
+}
+.ref {
+    border: none;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.px-3{
+    padding-left: 1.5vw;
+}
+.py-1{
+    padding-right: 1.5vw;
+}
+.size
+{
+    font-size:1.4rem;
+}
+#btn:hover{
+    color: black;
+    background-color: #2196f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2196f3 , 0 0 40px #2196f3 , 0 0 80px #2196f3;
+    transition: 1s;
+}
+.active{
+    color: black;
+    background-color: #2196f3;
+    border-radius: 10px;
+
+}
+.homepage{
+    width: 100vw;
+    height: 100vh;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Piedra', cursive;
+    font-size: 4rem;
+    color: white;
+    word-wrap: break-word;
+    /* border-right: 8px solid red; */
+    
+}
+.centered:hover{
+    font-size: 4.2rem;
+    color: black;
+    text-shadow: 0 0 40px #2196f3 , 0 0 40px #2196f3 , 0 0 80px #2196f3 , 0 0 10px #2196f3;
+    transition: 1s;
+}
+#about{
+    background-color: rgb(70, 69, 69);
+    color: white;
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Piedra', cursive;
+    font-size: 4rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.image{
+    height: 25vh;
+    border-radius: 7rem;
+    /* margin-top: 1rem; */
+    margin-right: 2rem;
+    display: block;
+}
+.about1{
+    display: flex;
+    flex-wrap: inherit;
+    word-wrap: wrap;
+    padding: 3rem;
+    line-height: 1.3rem;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+.right{
+    padding-left: 0 1rem 0rem 4rem;
+    font-size: large;
+    word-spacing: .4rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 2rem;
+}
+.neon:hover{
+    color: black;
+    box-shadow: 0 0 10px rgb(116, 240, 126), 0 0 20px rgb(116, 240, 126),0 0 30px rgb(116, 240, 126);
+    background-color: rgb(116, 240, 126);
+    transition: ease-out 1s;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+.center-box{
+    width: 60vw;
+    padding: 2rem;
+    box-shadow: 0 0 5rem white;
+    margin: auto auto;
+    border: .3rem solid white;
+    margin-bottom: 4rem;
+    border-radius: 2rem;
+    line-height: 1.7rem;
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-align: justify;
+    text-justify: inter-word
+}
+.social-icon{
+    margin-left: 1.3rem;
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 1rem;
+}
+.footer{
+    background-color: rgb(184, 176, 176);
+    color: black;
+}
+.skill-home{
+    min-height: 90vh;
+    background-color: #868383;
+}
+.circle1{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 10px solid red; */
+    align-items: center;
+    overflow: hidden;
+}
+.sub-circle1{
+    margin: auto auto;
+    margin-top: 1rem;
+    border: .7rem solid black;
+    height: 40vh;
+    width: 25vw;
+    overflow: hidden;
+    border-radius: 10%;
+    padding: .5rem;
+}
+.sub-circle1:hover{
+    background-color:rgb(231, 220, 220);
+    transition: 2s;
+}
+.contact{
+    min-height: 90vh;
+
+}
